@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi 👋
 
 <!--
 **devsatyam-2006/devsatyam-2006** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
