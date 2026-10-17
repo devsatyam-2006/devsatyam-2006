@@ -25,7 +25,7 @@ Full-stack JavaScript developer who leans backend. I build real-time, AI-assiste
 ### Pathwise
 Personalized learning roadmaps with an in-context AI assistant. Set a learning goal and Pathwise builds a modular curriculum with interactive lessons and mastery quizzes. Roadmaps adapt to what you already know, and weak concepts are flagged for targeted review.
 
-- Live: [pathwise-new-iota.vercel.app](https://pathwise-new-iota.vercel.app)
+- Live: [https://pathwisex.vercel.app](https://pathwisex.vercel.app)
 - Stack: Next.js, TypeScript, React
 
 ### DeviceSendX
