@@ -21,21 +21,33 @@ jobs:
           mkdir -p activity
 
           curl -fsSL --retry 3 \
-            https://programming-quotesapi.vercel.app/api/random \
-            -o quote.json
+            https://raw.githubusercontent.com/mudroljub/programming-quotes-api/refs/heads/master/data/quotes.json \
+            -o quotes.json
 
           node -e '
             const fs = require("fs");
-            const q = JSON.parse(fs.readFileSync("quote.json"));
-            const quote = q.quote || q.en;
+            const quotes = JSON.parse(
+              fs.readFileSync("quotes.json", "utf8")
+            );
 
-            if (!quote) throw new Error("Invalid quote");
+            if (!Array.isArray(quotes) || quotes.length === 0) {
+              throw new Error("Invalid quotes dataset");
+            }
+
+            const q = quotes[Math.floor(Math.random() * quotes.length)];
+
+            const quote = q.text || q.en || q.quote;
+            const author = q.author || "Unknown";
+
+            if (!quote) {
+              throw new Error("Invalid quote");
+            }
 
             const content = `# Daily Programming Quote
 
           > "${quote}"
 
-          **— ${q.author || "Unknown"}**
+          **— ${author}**
 
           Updated: ${new Date().toUTCString()}
           `;
