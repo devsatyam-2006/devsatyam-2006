@@ -9,6 +9,10 @@ Full-stack JavaScript developer who leans backend. I build real-time, AI-assiste
 - Infrastructure: Redis for caching, BullMQ for background jobs
 - Interested in WebRTC, system design, and applied GenAI
 
+## Coding Quote
+
+[View Today's Programming Quote](activity/quote.md)
+
 ## Tech Stack
 
 | Area | Tools |
