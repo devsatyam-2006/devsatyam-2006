@@ -1,7 +1,5 @@
 # Daily Programming Quote
 
-> "Once the computers got control, we might never get it back."
+> "Chemical engineers learned long ago that a process that works in the laboratory cannot be implemented in a factory in only one step."
 
-**— Marvin Minsky**
-
-Updated: Wed, 04 Nov 2026 16:58:00 GMT
+**— Fred Brooks**
