@@ -1,5 +1,5 @@
 # Daily Programming Quote
 
-> "Chemical engineers learned long ago that a process that works in the laboratory cannot be implemented in a factory in only one step."
+> "Programming is a little bit like the army. Now that I'm out, it's neat to have had the experience."
 
-**— Fred Brooks**
+**— Wayne Ratliff**
