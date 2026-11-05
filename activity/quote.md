@@ -1,5 +1,5 @@
 # Daily Programming Quote
 
-> "Programming is a little bit like the army. Now that I'm out, it's neat to have had the experience."
+> "People should be able to speak and breathe programs just like they talk now."
 
-**— Wayne Ratliff**
+**— Jaron Lanier**
