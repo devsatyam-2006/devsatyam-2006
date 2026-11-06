@@ -1,5 +1,5 @@
 # Daily Programming Quote
 
-> "People should be able to speak and breathe programs just like they talk now."
+> "The most important single aspect of software development is to be clear about what you are trying to build."
 
-**— Jaron Lanier**
+**— Bjarne Stroustrup**
